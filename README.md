@@ -19,3 +19,5 @@ git checkout Homework/id-6XXXX
 git push origin exam/id-6XXXX
 
 8. pull request -> based: branch students
+
+  https://education.github.com/git-cheat-sheet-education.pdf
