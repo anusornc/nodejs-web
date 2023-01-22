@@ -5,23 +5,26 @@
     <title>Chat</title>
 </head>
 
-<body>
+<body style="background-color:rgb(23, 159, 177);">
     <h1>Chat</h1>
 
-    <form id="nickname-form">
+    <form id="nickname-form" style="color: white;">
         <label for="nickname">Nickname:</label>
         <input id="nickname" type="text" required>
-        <button type="submit">Join</button>
+        <button type="submit" style="color:black">Join</button>
+        
     </form>
-
-    <div id="chat-container" style="display: none;">
+        
+    <div id="chat-container" style="color:white">
+        <label for="text">message log</label>
         <div id="chat"></div>
-        <p id="typing" style="display: none;"></p>
+        <p id="typing" style=""></p>
         <form id="message-form">
-            <input id="message" type="text">
-            <button type="submit">Send</button>
+            <div>--------------------------------</div>
+            <input id="message" type="text" style="coloer:white">
+            <button type="submit" >Send</button>
         </form>
-
+        
     </div>
 
     <h2>Online</h2>
