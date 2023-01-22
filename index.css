@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+body{
+    background: linear-gradient(110deg, #a94013 60%, #26a040 60%);
+}
+.button_Addtocart {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff440b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+.button_Addtocart:hover {background-color: #205f8d}
+  
+  .button_Addtocart:active {
+    background-color: #14dd1a;
+    box-shadow: 10px rgb(12, 158, 211);
+    transform: translateY(4px);
+  }
+  .button_Addtocart{
+    position: relative;
+    left: 1rem;
+  }
+  .center{
+    position: absolute;
+  top: 40%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  }
+  .text_tt{
+    position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:120px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #ff1f8f,
+						20px 20px #000000;
+}
+.text_ff{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:50px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px #ff1f8f,
+						20px 20px #000000;
+}
+.text_xx{
+    position: absolute;
+  top: 50%;
+  right: 80%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  text-shadow: 
+						8px 8px #dd167a;
+}
+.input_text{
+    padding: 8px 5px;
+    border-radius: 50px;
+}

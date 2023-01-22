@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Chat</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-    <h1>Chat</h1>
-
-    <form id="nickname-form">
-        <label for="nickname">Nickname:</label>
-        <input id="nickname" type="text" required>
-        <button type="submit">Join</button>
+    
+    <h1 class="text_tt">Chat</h1>
+    <form id="nickname-form" class="center">
+        <label for="nickname" class="text_xx">Nickname:</label>
+        <input id="nickname" class="input_text" type="text" required>
+        <button type="submit" class="button_Addtocart">Join</button>
     </form>
 
     <div id="chat-container" style="display: none;">
@@ -24,7 +24,7 @@
 
     </div>
 
-    <h2>Online</h2>
+    <h2 class="text_ff">Online</h2>
     <ul id="user-list"></ul>
 
     <script src="/socket.io/socket.io.js"></script>
