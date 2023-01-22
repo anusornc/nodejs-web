@@ -6,12 +6,12 @@
 </head>
 
 <body>
-    <h1>Chat</h1>
+    <h1>CHAT</h1>
 
-    <form id="nickname-form">
-        <label for="nickname">Nickname:</label>
+    <form id="nickname-form" >
+        <label for="nickname">NICKNAME:</label>
         <input id="nickname" type="text" required>
-        <button type="submit">Join</button>
+        <button type="submit" style="color: rgb(40, 245, 40);">Join</button>
     </form>
 
     <div id="chat-container" style="display: none;">
@@ -26,8 +26,30 @@
 
     <h2>Online</h2>
     <ul id="user-list"></ul>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            font-size: 100px;
+            text-align: center;
+            color: rgb(40, 245, 40);
+        }
+        h2 {
+            font-size: 50px;
+            text-align: center;
+            color: rgb(40, 245, 40);
+        }
+        #nickname-form{
+            text-align: center;
+            color: rgb(40, 245, 40);
+        }
+    </style>
 
     <script src="/socket.io/socket.io.js"></script>
+
     <script>
         const socket = io();
 
@@ -82,7 +104,7 @@
             event.preventDefault();
             const input = document.getElementById('message');
             const message = input.value;
-            console.log('send message to server',message)
+            console.log('send message to server', message)
             socket.emit('send message', message);
             input.value = '';
         });
